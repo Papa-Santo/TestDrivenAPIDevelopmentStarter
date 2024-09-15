@@ -1,0 +1,33 @@
+Setup for .Net
+
+VSCode:
+Install C# dev kit
+Welcome walk through
+Get Started with C# dev kit
+Choose Project template
+ASP.net Core Web API
+
+dotnet add package Microsoft.EntityFrameworkCore
+dotnet add package Microsoft.EntityFrameworkCore.SqlServer
+dotnet add package Microsoft.EntityFrameworkCore.Tools
+dotnet add package Npgsql.EntityFrameworkCore.PostgreSQL
+dotnet add package Microsoft.VisualStudio.Web.CodeGeneration.Design
+dotnet tool install dotnet-aspnet-codegenerator
+dotnet tool update dotnet-aspnet-codegenerator
+
+Make Models
+Make DBContext
+Fix Program.cs
+
+Build to check
+
+dotnet ef migrations add <MigrationName>
+dotnet ef database update
+
+npm install cypress
+npx cypress open
+
+Write test
+
+Make Controller
+dotnet aspnet-codegenerator controller -name ProductController -async -api -m Product -dc ApplicationDbContext -outDir Controllers
