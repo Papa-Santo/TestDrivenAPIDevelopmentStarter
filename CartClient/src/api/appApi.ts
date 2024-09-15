@@ -21,6 +21,7 @@ export const getOrders = async () => {
       "productid",
       "product",
       "orderheaderid",
+      "orderheader", // Possible null or non-existant
     ]);
 
     // Check Product
@@ -51,6 +52,7 @@ export const getOrderById = async (params: I_Id) => {
       "productid",
       "product",
       "orderheaderid",
+      "orderheader", // Possible null or non-existant
     ]);
 
     // Check Product

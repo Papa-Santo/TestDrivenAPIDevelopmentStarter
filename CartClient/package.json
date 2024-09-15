@@ -15,6 +15,7 @@
     "react18-json-view": "^0.2.8"
   },
   "devDependencies": {
+    "cypress": "^13.14.2",
     "@eslint/js": "^9.9.0",
     "@testing-library/jest-dom": "^6.5.0",
     "@testing-library/react": "^16.0.1",
